@@ -10,8 +10,12 @@ real-time stereo level meter in the terminal.
 
 ## Usage
 
-```
-python3 vu_meter.py [OPTIONS]
+```bash
+# via start script (recommended)
+./run.py [OPTIONS]
+
+# or as a module
+python3 -m vu_meter [OPTIONS]
 ```
 
 ### Options
@@ -26,13 +30,13 @@ python3 vu_meter.py [OPTIONS]
 
 ```bash
 # Use the default ALSA capture device
-python3 vu_meter.py
+./run.py
 
 # Use a specific device (list devices with: arecord -l)
-python3 vu_meter.py -D hw:1,0
+./run.py -D hw:1,0
 
 # Test the display without audio hardware
-python3 vu_meter.py --test
+./run.py --test
 ```
 
 ## Controls
