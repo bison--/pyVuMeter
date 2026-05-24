@@ -3,6 +3,8 @@
 A VU meter for the CLI. Reads audio via ALSA `arecord` and displays a
 real-time stereo level meter in the terminal.
 
+[![Demo](https://img.youtube.com/vi/3rcy8Lg7rx4/maxresdefault.jpg)](https://www.youtube.com/watch?v=3rcy8Lg7rx4)
+
 ## Requirements
 
 - Python 3.10+
