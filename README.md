@@ -6,7 +6,7 @@ real-time stereo level meter in the terminal.
 ## Requirements
 
 - Python 3.10+
-- `arecord` from `alsa-utils` (pre-installed on the target system)
+- `arecord` from `alsa-utils`
 
 ## Usage
 
